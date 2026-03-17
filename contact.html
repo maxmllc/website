@@ -5,38 +5,153 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Contact Us</title>
+<title>Contact Us | Max Soti Memorial Inc</title>
 
 <link rel="stylesheet" href="css/style.css">
+
+<meta name="description" content="Get in touch with Max Soti Memorial Inc. Reach us by email, phone, or mail, or send us a message through our contact form.">
 
 </head>
 
 <body>
 
-<header class="sub-header">
-<h1 class="center-title"><img src="images/logo.svg" alt="Max Soti Memorial logo" class="brand-logo">Contact Us</h1>
+<header>
+<div class="container nav">
+<h1 class="brand-title"><img src="images/logo.svg" alt="Max Soti Memorial logo" class="brand-logo">Max Soti Memorial</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="programs.html">Programs</a>
+<a href="get-involved.html">Get Involved</a>
+<a href="donate.html" class="donate-btn">Donate</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
 </header>
 
-<section class="container">
+<section class="page-hero">
+<div class="container">
+  <h2>Contact Us</h2>
+  <p>We'd love to hear from you.</p>
+</div>
+</section>
 
-<form>
+<section class="container contact-layout">
 
-<input type="text" placeholder="Your Name" required>
+<div class="contact-form-col">
+<h2>Send Us a Message</h2>
+<p>Have a question about our programs, want to volunteer, or just want to say hello? Fill out the form below and we'll get back to you within two business days.</p>
 
-<input type="email" placeholder="Email Address" required>
+<form onsubmit="return false;">
 
-<textarea placeholder="Your Message"></textarea>
+<label for="contact-name">Full Name</label>
+<input id="contact-name" type="text" placeholder="e.g. Jane Smith" required>
+
+<label for="contact-email">Email Address</label>
+<input id="contact-email" type="email" placeholder="e.g. jane@example.com" required>
+
+<label for="contact-subject">Subject</label>
+<select id="contact-subject">
+  <option value="">Select a topic...</option>
+  <option value="general">General Inquiry</option>
+  <option value="volunteer">Volunteering</option>
+  <option value="scholarship">Scholarship Questions</option>
+  <option value="donation">Donation / Sponsorship</option>
+  <option value="partnership">Partnership Opportunity</option>
+  <option value="media">Media / Press</option>
+</select>
+
+<label for="contact-message">Message</label>
+<textarea id="contact-message" placeholder="Tell us what's on your mind..."></textarea>
 
 <button type="submit">Send Message</button>
 
 </form>
+</div>
 
-<p>Email: info@maxsotimemorialllc.us</p>
+<div class="contact-info-col">
+<h2>Other Ways to Reach Us</h2>
+
+<div class="contact-info-block">
+  <h3>Email</h3>
+  <p>info@maxsotimemorialllc.us</p>
+</div>
+
+<div class="contact-info-block">
+  <h3>Phone</h3>
+  <p>(321) 430-3323</p>
+  <p class="muted">Voicemail monitored Mon&ndash;Fri</p>
+</div>
+
+<div class="contact-info-block">
+  <h3>Mailing Address</h3>
+  <p>
+  Max Soti Memorial Inc<br>
+  29 Meyer Road<br>
+  Plano, IL 60545
+  </p>
+</div>
+
+<div class="contact-info-block">
+  <h3>Office Hours</h3>
+  <p>Monday &ndash; Friday<br>9:00 AM &ndash; 4:00 PM CT</p>
+  <p class="muted">Closed on federal holidays</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq">
+  <h3>Is my donation tax-deductible?</h3>
+  <p>Yes. Max Soti Memorial Inc is a registered 501(c)(3) organization. All contributions are tax-deductible to the extent permitted by law. You will receive a receipt for your records.</p>
+</div>
+
+<div class="faq">
+  <h3>How do I apply for the scholarship?</h3>
+  <p>Applications open each January for Plano High School seniors. Forms are available through the school guidance office or by emailing us directly.</p>
+</div>
+
+<div class="faq">
+  <h3>Do I need experience to volunteer?</h3>
+  <p>Not at all. We provide orientation and pair new volunteers with experienced team members. All ages are welcome (minors must be accompanied by a guardian).</p>
+</div>
+
+<div class="faq">
+  <h3>Can my business sponsor an event?</h3>
+  <p>Absolutely. We offer sponsorship tiers starting at $250 for the annual Memorial 5K, with benefits including logo placement and public recognition. Contact us for details.</p>
+</div>
+
+</div>
 
 </section>
 
 <footer>
-<p>© 2026 Max Soti Memorial Inc</p>
+
+<div class="footer-content container">
+  <div class="footer-col">
+    <h4>Max Soti Memorial Inc</h4>
+    <p>A 501(c)(3) nonprofit organization<br>EIN: 99-4586659</p>
+    <p>29 Meyer Road<br>Plano, IL 60545</p>
+  </div>
+  <div class="footer-col">
+    <h4>Quick Links</h4>
+    <a href="about.html">About Us</a>
+    <a href="programs.html">Programs</a>
+    <a href="get-involved.html">Get Involved</a>
+    <a href="donate.html">Donate</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-col">
+    <h4>Contact</h4>
+    <p>info@maxsotimemorialllc.us</p>
+    <p>Phone: (321) 430-3323</p>
+    <p>Office Hours:<br>Mon&ndash;Fri, 9:00 AM &ndash; 4:00 PM</p>
+  </div>
+</div>
+
+<div class="footer-bottom">
+<p>&copy; 2026 Max Soti Memorial Inc. All rights reserved.</p>
+</div>
+
 </footer>
 
 </body>
