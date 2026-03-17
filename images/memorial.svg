@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 320'>
+  <rect width='560' height='320' fill='#fff1f2'/>
+  <circle cx='280' cy='120' r='76' fill='#ef4444' opacity='0.86'/>
+  <path d='M280 60v120M220 120h120' stroke='white' stroke-width='12' stroke-linecap='round'/>
+  <rect x='180' y='210' width='200' height='22' rx='11' fill='#be123c'/>
+  <text x='280' y='292' text-anchor='middle' font-size='34' font-family='Segoe UI, Arial' fill='#9f1239' font-weight='700'>Memorial</text>
+</svg>
